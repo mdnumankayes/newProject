@@ -16,10 +16,9 @@
 #div3 {
     height: 300px;
     width: auto;
-    background-color: saddlebrown;
 }
 
-#tId{
+table{
 
     background-color:none;
     font-size: medium;
@@ -27,12 +26,20 @@
     border-style: dotted;
     border-width: 1px;
     border-color:black;
+    align-items: center;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
     
 }
-#row {
-    border: dotted;
+#row,#tbdy {
+    border: 3px solid black;
 }
 body {
    display: flex;
    text-align: center;
+}
+td,tr {
+    border: 3px solid black;
+
 }
