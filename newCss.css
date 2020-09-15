@@ -1,0 +1,38 @@
+#div1{
+    text-align: center;
+    color: aqua;
+    height: 200px;
+    width: 200px;
+    background-color:red;
+    text-align: center;
+}
+
+#div2 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+}
+#div3 {
+    height: 300px;
+    width: auto;
+    background-color: saddlebrown;
+}
+
+#tId{
+
+    background-color:none;
+    font-size: medium;
+    text-align: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color:black;
+    
+}
+#row {
+    border: dotted;
+}
+body {
+   display: flex;
+   text-align: center;
+}
